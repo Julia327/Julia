@@ -1,4 +1,9 @@
-﻿using System;
+//A Unity project I'm working on. This script is to call NPCs in the right location of their route based on time and allows NPCs to go to and back from their route at different 
+//times. The NPC is animated and will stop walking when you talk to it. Talking to it will make it late, but if that is important you could set the speed based on movePercent. 
+//For my purposes, this was not needed.
+//This script would be placed on the NPC. There is a separate script in the scene that activates and deactivates the NPCs based on time 
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
